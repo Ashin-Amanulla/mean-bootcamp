@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://userone:userone@cluster0.vcc0q.mongodb.net/student2')
+mongoose.connect('Enter your mongo atlas string')
 .then(()=>{
     console.log('Mongo DB connection established successfully')
 })
